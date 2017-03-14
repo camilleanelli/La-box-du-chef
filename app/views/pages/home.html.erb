@@ -1,72 +1,64 @@
 <div class="banner-index" id="banner-container">
   <div class="container" >
      <div class="row ">
-
-            <div class="col-xs-12 col-sm-12 ">
-              <div  class="text-center" >
-                <h1 class="hidden-xs title-home-lg"> MANGEZ MIEUX, MOINS CHER,
-                  <p> LUTTEZ CONTRE LE GASPILLAGE </p>
-                  <p class="sub-title-home-lg"> Cliquez, commandez, récuperez, savourez !</p>
-                  <b class="sub-sub-title-home-lg">VERSION BETA DISPONIBLE À PARIS</b>
-                  </h1>
-                  <h1 class="visible-xs hidden-sm hidden-md hidden-lg title-home-xs"> <p> MANGEZ MIEUX, MOINS CHER, LUTTEZ CONTRE LE GASPILLAGE !</p>
-                  <h1>
-                  <p class="sub-title-home-xs hidden-sm hidden-lg">VERSION BETA DISPONIBLE À PARIS</p>
-
-
-
-
-          </div>
-        </div>
-    </div>
-  </div >
-
-
-
-  <div class= "col-xs-12 text-center" style="margin-top:35px;margin-bottom:35px;font-size:40px">
-    <%= link_to "GO", meals_path, class: "btn-home" %>
-  </div>
-
-
-
-
-  <div class="row" style="margin-top:10px">
-    <div class="col-xs-12 filter-hiw text-center">
-          <h4 class="text-center" > FONCTIONNEMENT </h4>
-      <div>
-        <div class="text-center col-xs-6 col-sm-3">
-          <%= image_tag ("eshop.png"), size:"50x63"%>
-          <p><STRONG>1</STRONG>. TROUVEZ & COMMANDEZ VOTRE BOXE</p>
-        </div>
-        <div class="text-center col-xs-6 col-sm-3">
-          <%= image_tag ("walker.png"), size:"65x65" %>
-          <p><STRONG>2</STRONG>. RENDEZ-VOUS CHEZ LE PARTENAIRE</p>
-        </div>
-        <div class="text-center col-xs-6 col-sm-3">
-          <%= image_tag ("foodbox.png"), size:"65x65" %>
-          <p><STRONG>3</STRONG>. RECUPÉREZ VOTRE BOXE</p>
-        </div>
-        <div class="text-center col-xs-6 col-sm-3">
-          <%= image_tag ("eating.png"), size:"65x65" %>
-          <p><STRONG>4</STRONG>. BON APPÉTIT !</p>
-        </div>
+       <div class="col-xs-12 col-sm-12 ">
+        <div  class="text-center" >
+          <h1 class="hidden-xs"> MANGEZ MIEUX, MOINS CHER,
+            <p> LUTTEZ CONTRE LE GASPILLAGE </p>
+            <p class="sub-title-home-lg"> Cliquez, commandez, récuperez, savourez !</p>
+          </h1>
+          <h1 class="visible-xs hidden-sm hidden-md hidden-lg title-home-xs"> 
+           MANGEZ, MOINS CHER, LUTTEZ CONTRE LE GASPILLAGE !
+          </h1>
+          <p class="sub-title-home-xs hidden-sm hidden-lg">VERSION BETA DISPONIBLE À PARIS</p>
+         </div>
       </div>
     </div>
-  </div>
-
-  <div class="hidden-xs" style="height:80px;">
-
-  </div>
-
-
-  <div class="row" style="margin-top:5px">
-    <div class="col-xs-6 off-set-3 filter-hiw text-center">
-      <h4 class="text-center" > NOTRE PHILOSOPHIE </h4>
-      <p class="justify" style="margin-left:20px; margin-right:20px"> Afin d'éviter au maximum le gaspillage, nous proposons aux restaurateurs de conditionner leurs invendus sous forme de boxe à emporter et de les vendre ici, à un prix cassé.</p>
-      <p>Vous pouvez ainsi profitez de plats dignes d'un restaurant à tout petit prix.</p>
-    </div>
+  </div >
+    <div class= "col-xs-12 text-center" style="margin-top:35px;margin-bottom:35px;font-size:40px">
+    <%= link_to "GO", meals_path, class: "btn-home" %>
   </div>
 </div>
+
+<section id="intro" class="container">
+  <div class="row text-center" style="margin-top:100px">
+      <div class="col-xs-4 col-xs-offset-4 line"></div>
+      <h4 class="text-center margin-title"> NOTRE PHILOSOPHIE </h4>
+      <div class="col-xs-6 col-xs-offset-3">
+        <p class="justify"> Afin d'éviter au maximum le gaspillage, nous proposons aux restaurateurs de conditionner leurs invendus sous forme de boxe à emporter et de les vendre ici, à un prix cassé.</p>
+      <p>Vous pouvez ainsi profitez de plats dignes d'un restaurant à tout petit prix.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section id="steps" class="container">
+  <div class="row text-center" style="margin-top:100px;padding-bottom:100px;">
+    <div class="col-xs-4 col-xs-offset-4 line"></div>   
+    <h4 class="margin-title"> Comment ça marche ? </h4>
+    <div class="text-center col-xs-6 col-sm-3">
+      <%= image_tag ("eshop.png"), size:"50x63"%>
+      <p> TROUVEZ & COMMANDEZ VOTRE BOXE</p>
+    </div>
+    <div class="text-center col-xs-6 col-sm-3">
+      <%= image_tag ("walker.png"), size:"65x65" %>
+      <p> RENDEZ-VOUS CHEZ LE PARTENAIRE</p>
+    </div>
+    <div class="text-center col-xs-6 col-sm-3">
+      <%= image_tag ("foodbox.png"), size:"65x65" %>
+      <p>RECUPÉREZ VOTRE BOXE</p>
+    </div>
+    <div class="text-center col-xs-6 col-sm-3">
+      <%= image_tag ("eating.png"), size:"65x65" %>
+      <p> BON APPÉTIT !</p>
+    </div>
+  </div>
+</section>
+
+
+
+
 
 
 

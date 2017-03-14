@@ -8,6 +8,8 @@
 
 }
 
+
+
 .banner-index {
   position: relative;
 }
@@ -43,7 +45,14 @@
   color:black;
 }
 
+.line {
+  height: 3px;
+  background-color: black;
+}
 
+.margin-title {
+  margin-bottom: 100px;
+}
 .filter-hiw {
   position: relative;
   width: 100%;
@@ -66,16 +75,13 @@
   min-height: 150px;
   min-width: 150px;
   text-align: center;
-  front-size: 25px;
+  
   text-decoration: none;
   padding: 10px;
   color: white;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.8);
-  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+  
   border-radius: 50%;
   border: 3px solid white;
-  background: #F9690E;
-    // display: flex;
   margin: auto;
   &:hover {
    border: 1px solid white;
